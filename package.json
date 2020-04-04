@@ -1,0 +1,26 @@
+{
+  "name": "devjobs",
+  "version": "1.0.0",
+  "description": "App built with Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristoferNava/DevJobs.git"
+  },
+  "author": "Cristofer Nava",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CristoferNava/DevJobs/issues"
+  },
+  "homepage": "https://github.com/CristoferNava/DevJobs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

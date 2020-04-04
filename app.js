@@ -1,9 +1,8 @@
 const express = require('express');
+const routes = require('./routes/routes');
 
 const app = express();
 
-app.use('/', (req, res) => {
-  res.send('Listo para crear la aplicación!');
-});
+app.use('/', routes());
 
 app.listen(3000);
